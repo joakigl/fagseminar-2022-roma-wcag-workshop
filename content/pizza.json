@@ -1,0 +1,62 @@
+{
+  "Venus": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Tomatsaus", "Ost", "Sjampinjong", "Biff"]
+  },
+  "Vesuvius": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Tomatsaus", "Ost", "Habanero", "Marinert kylling", "Løk", "Chilli flak"]
+  },
+  "Venezia": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Tomatsaus", "Ost", "Feta", "Oliven", "Agurk", "Yoghurt"]
+  },
+  "Verde": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Creme Fraiche", "Ost", "Pesto", "Oliven", "Artisjokk", "Ruccola"]
+  },
+  "Veni": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Tomatsaus", "Ost", "Sjampinjong"]
+  },
+  "Vedi": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Tomatsaus", "Ost", "Skinke"]
+  },
+  "Vici": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Salsa per pizza", "Pecorino", "Proscuttio Crude"]
+  },
+  "Vulgare": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Tomatsaus", "Ost", "Blåmuggost", "Ananas", "Peanøtter", "Pommes Frites"]
+  },
+  "Volum": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Tomatsaus", "Ost", "Paprika", "Chili", "Bacon", "Kjøttboller", "Chorizo", "Biff"]
+  },
+  "Vanga": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Tomatsaus", "Ost", "Skinke", "Prosciutto Crude", "Culatello di zibello"]
+  },
+  "Vezzo": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Tomatsaus", "Ost", "Tunfisk", "Artisjokk"]
+  },
+  "Volente": {
+    "imageUrlSmall": "/pizza.png",
+    "imageUrlLarge": "/expanded_pizza.png",
+    "defaultIngredients": ["Tomatsaus", "Mozzerella", "Prosciutto Crude", "Pinjekjerner"]
+  }
+}

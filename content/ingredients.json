@@ -1,0 +1,137 @@
+{
+  "Tomatsaus": {
+    "type": "sauce",
+    "available": "yes",
+    "component": "radio"
+  },
+  "Creme Fraiche": {
+    "type": "sauce",
+    "available": "yes",
+    "component": "radio"
+  },
+  "Ost": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Fetaost": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Pecorino": {
+    "type": "ingredient",
+    "available": "no",
+    "component": "checkbox"
+  },
+  "Skinke": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Prosciutto Crude": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Biff": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Culatello di Z": {
+    "type": "ingredient",
+    "available": "no",
+    "component": "checkbox"
+  },
+  "Marinert Kylling": {
+    "type": "ingredient",
+    "available": "no",
+    "component": "checkbox"
+  },
+  "Chorizo": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Bacon": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Kjøttboller": {
+    "type": "ingredient",
+    "available": "no",
+    "component": "checkbox"
+  },
+  "Tunfisk": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Pesto": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Artisjokk": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Paprika": {
+    "type": "ingredient",
+    "available": "no",
+    "component": "checkbox"
+  },
+  "Yoghurt": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Habanero": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Chilli flak": {
+    "type": "ingredient",
+    "available": "no",
+    "component": "checkbox"
+  },
+  "Chilli": {
+    "type": "ingredient",
+    "available": "no",
+    "component": "checkbox"
+  },
+  "Oliven": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Pinjekjerner": {
+    "type": "ingredient",
+    "available": "no",
+    "component": "checkbox"
+  },
+  "Ruccola": {
+    "type": "ingredient",
+    "available": "no",
+    "component": "checkbox"
+  },
+  "Løk": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Sjampinjong": {
+    "type": "ingredient",
+    "available": "yes",
+    "component": "checkbox"
+  },
+  "Agruk": {
+    "type": "ingredient",
+    "available": "no",
+    "component": "checkbox"
+  }
+}

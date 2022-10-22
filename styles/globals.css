@@ -1,16 +1,355 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.hidden {
+  display: none;
 }
 
-* {
-  box-sizing: border-box;
+.italic {
+  font-style: italic;
+}
+
+.navbar-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 3rem;
+  height: 4.25rem;
+  background-color: #f1f5f1;
+}
+
+.navbar-columns {
+  grid-column: span 1 / span 1;
+  height: inherit;
+}
+
+.navbar-columns-left {
+  display: block;
+  position: relative;
+}
+
+.navbar-columns-left--items {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 60px;
+}
+
+.navbar-columns-middle {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.navbar-columns-middle--items {
+  grid-column: span 1 / span 1;
+}
+
+.navbar-columns-right {
+  display: block;
+  position: relative;
+}
+
+.navbar-columns-right--items {
+  position: absolute;
+  right: 40px;
+  top: calc(1 / 8 * 100%);
+}
+
+.main-container {
+  height: 100%;
+  flex: 5;
+  background-color: #d3b685;
+}
+/* #fbce8cb8 */
+
+.main-container-box {
+  width: 1440px;
+  align-self: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container--title {
+  width: 240px;
+  height: 23px;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  margin-left: 95px;
+
+  font-family: 'Snell Roundhand';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 22px;
+
+  color: #ea2b2b;
+}
+
+.content-start-image {
+  object-fit: fill;
+  width: 100vw;
+  position: relative;
+}
+
+.content-start-image--button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+
+  position: absolute;
+  width: 285px;
+  height: 88px;
+  left: 577px;
+  top: 250px;
+
+  background: #ae1515;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+.content-start-information {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 140px;
+
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+}
+
+.content-start-information--title {
+}
+
+.content-start-information--text {
+}
+
+.content-message-box {
+  margin-top: 5rem;
+  place-self: center;
+
+  display: flex;
+  place-items: center;
+  place-content: center;
+  padding: 12px 18px 18px;
+
+  width: 332px;
+  height: 83px;
+
+  background: #ffffff;
+  border-radius: 18px;
+}
+
+.content-message-box--text {
+  height: 24px;
+
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #2b2b2c;
+
+  cursor: default;
+}
+
+.content-card-container {
+  display: grid;
+  align-self: center;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 30px;
+  row-gap: 18px;
+  margin-bottom: 90px;
+  overflow: visible;
+}
+
+.content-menu-card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 18px 18px;
+
+  width: 290px;
+  height: 290px;
+
+  background: #ffffff;
+  border-radius: 18px;
+}
+
+.content-order-card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 18px 18px;
+
+  width: 290px;
+  height: 354px;
+
+  background: #ffffff;
+  border-radius: 18px;
+  position: relative;
+}
+
+.content-expanded-card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 18px 18px;
+  width: 1071px;
+  height: 716px;
+  grid-column: span 3;
+  position: relative;
+
+  background: #ffffff;
+  border-radius: 18px;
+}
+
+.content-menu-card--title,
+.content-order-card--title,
+.content-expanded-card--title {
+  margin-bottom: 10px;
+  margin-left: 12px;
+
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content-menu-card--ingredients,
+.content-order-card--ingredients {
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+
+.content-expanded-card--ingredients--title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content-expanded-card--ingredients {
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+
+.content-order-card--button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  bottom: 18px;
+  position: absolute;
+
+  width: 253px;
+  height: 45px;
+
+  background: #ae1515;
+  color: #ffffff;
+  border-radius: 30px;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.content-expanded-card--ingredients--choice {
+  display: grid;
+  grid-template-rows: repeat(7, minmax(0, 1fr));
+  grid-auto-flow: column;
+}
+
+.content-expanded-card--ingredients--choice-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.content-expanded-card--ingredients--choice-name {
+  width: 150px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.content-expanded-card--ingredients--choice-radio,
+.content-expanded-card--ingredients--choice-checkbox {
+  width: 24px;
+  height: 24px;
+  margin-right: 13px;
+}
+
+.content-expanded-card--ingredients--information {
+  bottom: 18px;
+  position: absolute;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-expanded-card--ingredients--information-text {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.content-expanded-card--ingredients--information-text > div {
+  margin-right: 26px;
+}
+
+.content-expanded-card--ingredients--information-text-font {
+  height: 22px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.content-expanded-card--ingredients--information-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+
+  width: 138px;
+  height: 45px;
+
+  background: #2f80ed;
+  border-radius: 30px;
+}
+
+.content-expanded-card--ingredients--information-button > svg {
+  color: #ffffff;
+}
+
+.content-expanded-card--order {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-expanded-card--order-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-expanded-card--order-title {
+}
+
+.content-expanded-card--order-text {
+}
+
+.footer-container {
+  background-color: #ae1515;
+  display: block;
+  width: 100%;
+  height: 12.25rem;
 }
